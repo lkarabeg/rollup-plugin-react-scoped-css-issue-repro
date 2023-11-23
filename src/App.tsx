@@ -8,8 +8,8 @@ function App() {
   )
 }
 
-class AnyClass {
-  anyProperty: string
+export class AnyClass {
+  anyProperty: string | undefined
 }
 
 
